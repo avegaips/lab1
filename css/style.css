@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+    background-color: #201a46;
+    color:rgb(202, 197, 235);
 }
 
 header{
@@ -13,13 +16,18 @@ header{
 footer{
     width: 100%;
     margin-top: 24px;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 
 .intro{
     width: 100%;
+    padding: 20px;
 }
-
+article{
+    padding: 10px;
+    border: 2px solid rgb(202, 197, 235);
+    margin-bottom: 20px;
+}
 @media(min-width: 768px){
 
     article{
@@ -27,5 +35,6 @@ footer{
         width: 30%;
         margin-right: 3%;
         vertical-align: top;
+        text-align: center;
     }
 }
